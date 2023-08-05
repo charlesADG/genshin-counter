@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+    font-family: Work Sans, sans-serif;
+}
+
+.main-container{
+    margin-top: 10px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #302f2f;
+    text-align: center;
+  
+}
+
+.featured-banner{
+    border: 3px solid #F2EC9B;
+    background-color: #224193;
+    border-radius: 10px;
+    padding: 0px 20px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+    margin: 25px auto;
+    display: inline-block;
+    
+}
+
+.weapon-banner{
+    border: 3px solid #F2EC9B;
+    background-color: #224193;
+    border-radius: 10px;
+    margin: 25px auto;
+    display: inline-block;
+    padding: 0px 20px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.standard-banner{
+    border: 3px solid #F2EC9B;
+    background-color: #224193;
+    border-radius: 10px;
+    margin: 25px auto;
+    display: inline-block;
+    padding: 0px 20px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    background-color: rgb(255, 255, 255); 
+    margin: 0;  
+    overflow: hidden; 
+}
+
+h1{
+    color: #F2EC9B;
+    text-align: center;
+}
+.title{
+    width: 100%;
+    background-color: #DF3C5F;
+    margin: 0;
+    padding: 15px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn10, .btn11, .btn12{
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: #F2EC9B;
+    color:#000000;
+    border: none;
+    width: 25%;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+
+h2{
+    font-size: 14em;
+    color: white;
+    text-shadow: 7px 7px black;
+}
+
+.btn1:hover, .btn2:hover, .savebtn:hover, .loadbtn:hover{
+    background-color: black;
+    color: white;
+}
