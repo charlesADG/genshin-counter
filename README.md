@@ -1,1 +1,1 @@
-# genshin-counter
+# A Genshin Counter for all the banners
